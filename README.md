@@ -64,30 +64,25 @@ Credit_Risk_Evaluator/
    - **Age** (years)  
    - **Annual Income**  
    - **Loan Amount**  
-   - **Genetical Risk** (0 = none, 1 = low, 2 = moderate, 3 = high)  
-   - **Insurance Plan** (e.g., Bronze, Silver, Gold)  
-   - **Employment Status** (e.g., Salaried, Self-Employed, Unemployed)  
-   - **Gender** (Male/Female)  
-   - **Marital Status** (Married/Unmarried)  
-   - **BMI Category** (Underweight, Normal, Overweight, Obese)  
-   - **Smoking Status** (No Smoking / Smoker)  
-   - **Region** (Northeast, Northwest, Southeast, Southwest)  
-   - **Medical History** (No Disease / Has Disease)  
+   - **Loan Tenure (Months)**  
+   - **Loan Purpose** (Education, Home, Auto, Personal)  
+   - **Loan Type** (Secured, Unsecured)
+   - **Avg DPD (Days Past Due)**
+   - **Delinquency Ratio (%)**   
+   - **Credit Utilization Ratio (%)**
+   - **Open Loan Accounts**  
+   - **Residence Type** (Owned, Rented, Mortgage)  
 
-2. **Segmentation Logic**  
-   - **Age <= 25** → Uses **`scaler_young.joblib`** and **`model_young.joblib`** (Linear Regression).
-   - **Age > 25** → Uses **`scaler_rest.joblib`** and **`model_rest.joblib`** (XGBoost Regressor).
-
-3. **Prediction Flow**  
-   - Input data is preprocessed using the respective scaler.  
-   - Features are passed to the appropriate model.  
-   - The predicted premium cost is returned instantly.
+3. **Prediction Workflow**  
+   - The raw user inputs are transformed using the model's scaler.  
+   - Transformed features are then passed to the trained classifier.  
+   - The model returns three outputs: the probability of default, a mapped credit score (300–900), and a corresponding risk       rating (e.g., Poor, Fair, Good, Excellent).
 
 ---
    
 ## 🖼️ Application Snapshot
 
-![Application UI](insurance_predictor_ui_mockup.png)
+![Application UI](credit_risk_ui.png)
 
 ---
 
@@ -96,5 +91,5 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](./L
 
 ---
 
-*Don’t guess—predict. Discover your insurance premium with smart insights.*
+*Decide with confidence—evaluate credit risk intelligently.*
 
