@@ -82,7 +82,7 @@ Credit_Risk_Evaluator/
    
 ## 🖼️ Application Snapshot
 
-![Application UI](credit_risk_ui.png)
+![Application UI](credit-risk-ui.png)
 
 ---
 
