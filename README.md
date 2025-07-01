@@ -10,7 +10,7 @@ You can try the tool live here: **[Credit Risk Evaluator](https://vaibhav-projec
 ---
 
 ## 🎥 Presentation
-Watch the full project presentation here: **[Credit Risk Evaluator](https://vaibhav-projects.my.canva.site/credit-risk-evaluator)**
+Watch the full project presentation here: **[Credit Risk Evaluator Presentation](https://vaibhav-projects.my.canva.site/credit-risk-evaluator)**
 
 ---
 
