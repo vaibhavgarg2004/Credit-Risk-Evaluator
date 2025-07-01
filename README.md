@@ -9,6 +9,11 @@ You can try the tool live here: **[Credit Risk Evaluator](https://vaibhav-projec
 
 ---
 
+## 🎥 Presentation
+Watch the full project presentation here: **[Credit Risk Evaluator](https://vaibhav-projects.my.canva.site/credit-risk-evaluator)**
+
+---
+
 ## 🛠 Features  
 - Visually appealing and interactive UI built with Streamlit.  
 - Predicts loan default risk using various personal and financial attributes.  
@@ -32,6 +37,7 @@ Credit_Risk_Evaluator/
 │
 ├── main.py                      # Main Streamlit app logic
 ├── prediction_helper.py         # Logic for preprocessing and prediction
+├── LICENSE                      # Apache License file
 ├── requirements.txt             # List of dependencies
 └── README.md                    # Project documentation
 ```
