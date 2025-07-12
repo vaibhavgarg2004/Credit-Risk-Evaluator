@@ -1,4 +1,4 @@
-# Credit Risk Evaluator
+# 💳 Credit Risk Evaluator
 
 A smart web application developed using Streamlit that evaluates the credit risk of a loan applicant by analyzing their demographic, financial, and employment-related inputs. By leveraging a classification model, it efficiently identifies high-risk applicants, aiding in better credit approval decisions.
 
